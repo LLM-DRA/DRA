@@ -6,7 +6,7 @@ This repository contains the official code used in paper "Making Them Ask and An
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Launch DRA](#Launch DRA)
+  - [Attack](#Attack)
   - [Analysis](#analysis)
 - [Clarification](#clarification)
 - [Ethics](#ethics)
@@ -44,7 +44,7 @@ To run the code in this repository, follow these steps:
 
 ## Usage
 
-### Launch DRA
+### Attack
 
 1. Enter the attack directory which contains the attack code.
 
