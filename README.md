@@ -1,3 +1,5 @@
+<img src="imgs/logo.jpg" alt="Logo" align="left" width="105"/>
+
 # Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction
 
 ![Python 3.9](https://img.shields.io/badge/python-3.9-DodgerBlue.svg?style=plastic)
