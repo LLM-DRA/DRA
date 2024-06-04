@@ -6,7 +6,7 @@ This repository contains the official code used in paper "Making Them Ask and An
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Attack](#Attack)
+  - [Attack](#attack)
   - [Analysis](#analysis)
 - [Clarification](#clarification)
 - [Ethics](#ethics)
@@ -154,20 +154,19 @@ To run the code in this repository, follow these steps:
   --em_t=0.75 \
   --save=[SAVED_FILE, xx.json]
   ```
+  `model`: the target model name, choose from {llama, vicuna, gpt-3.5, gpt-4}
 
-​	`model`: the target model name, choose from {llama, vicuna, gpt-3.5, gpt-4}
+  `start`: the start index of the dataset, from 0 to 120
 
-​	`start`: the start index of the dataset, from 0 to 120
+  `end`: the end index of the dataset, from 0 to 120
 
-​	`end`: the end index of the dataset, from 0 to 120
+  `T`: the maximum retry time while attacking the model
 
-​	`T`: the maximum retry time while attacking the model
+  `em_t`: the threshold for checking the metric **em**. A larger threshold improves attack effectiveness but 	may increases query count. A smaller threshold reduces queries but may lowers effectiveness.
 
-​	`em_t`: the threshold for checking the metric **em**. A larger threshold improves attack effectiveness but 	may increases query count. A smaller threshold reduces queries but may lowers effectiveness.
+  `bs`: batch size
 
-​	`bs`: batch size
-
-​	`save`: result save path, in json format
+  `save`: result save path, in json format
 
 ### Analysis
 
