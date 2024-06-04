@@ -2,6 +2,8 @@
 
 This repository contains the official code used in paper "Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction".
 
+Please feel free to contact lyutoon@gmail.com if you have any questions.
+
 ## Table of Contents
 
 - [Installation](#installation)
