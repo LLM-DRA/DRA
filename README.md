@@ -132,9 +132,9 @@ To run the code in this repository, follow these steps:
 
   `model`: the target model name, choose from {llama, vicuna, gpt-3.5, gpt-4}
 
-  `start`: the start index of the dataset, $start\in[0,120]$
+  `start`: the start index of the dataset, from 0 to 120
 
-  `end`: the end index of the dataset, $end\in[0,120]$
+  `end`: the end index of the dataset, from 0 to 120
 
   `T`: the maximum retry time while attacking the model
 
@@ -157,9 +157,9 @@ To run the code in this repository, follow these steps:
 
 ​	`model`: the target model name, choose from {llama, vicuna, gpt-3.5, gpt-4}
 
-​	`start`: the start index of the dataset, $start\in[0,120]$
+​	`start`: the start index of the dataset, from 0 to 120
 
-​	`end`: the end index of the dataset, $end\in[0,120]$
+​	`end`: the end index of the dataset, from 0 to 120
 
 ​	`T`: the maximum retry time while attacking the model
 
