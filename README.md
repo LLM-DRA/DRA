@@ -26,7 +26,7 @@ To run the code in this repository, follow these steps:
 2. Prepare the conda enviroment  (Python 3.9.18 is recommended):
 
    ```sh
-   create -n DRA python==3.9.18
+   conda create -n DRA python==3.9.18
    conda activate DRA
    ```
 
