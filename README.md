@@ -1,5 +1,8 @@
 # Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction
 
+![Python 3.9](https://img.shields.io/badge/python-3.9-DodgerBlue.svg?style=plastic)
+![License MIT](https://img.shields.io/badge/License-MIT-DodgerBlue.svg?style=plastic)
+
 This repository contains the official code used in paper "Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction".
 
 Please feel free to contact lyutoon@gmail.com if you have any questions.
