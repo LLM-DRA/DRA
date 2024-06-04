@@ -197,6 +197,20 @@ To run the code in this repository, follow these steps:
 
 Will be released soon!
 
+## Examples
+
+<p align="center">
+<img src="imgs/attack_example_gpt4_6.4.png" alt="Logo" width="400"> <br>
+<small>Jailbreak example of GPT-4</small>
+</p>
+
+<p align="center">
+<img src="imgs/attack_example_gpt4o_6.4.png" alt="Logo" width="400"> <br>
+<small>Jailbreak example of GPT-4o</small>
+</p>
+
+Note that the above examples are generated on June 4th and may not be reproducable on future versions of GPT-4 and GPT-4o.
+
 ## Clarification
 
 DRA now is still a research prototype, it may exist some unexcepted behaviors or bugs; 
@@ -208,6 +222,8 @@ Meanwhile, DRA is under active development.
 Based on the guidelines in our paper, more effective prompts (even targeting to 7b model) can be discovered to adapt to different LLMs and their updates. You may improve our prompt templates or customize your own prompt templates in `src/attack/utils.py`. Note that the prompt template can be improved and in `src/attack/utils.py`, `xxx_DEV` are the templates under improvement.
 
 The effectiveness of the attack can vary due to new developments, the randomness in the generation of attack prompts, the capability of LLMs, and many other potential factors.
+
+Several months ago, we shared our findings and jailbreak examples with OpenAI's safety team via email. Consequently, they may have implemented measures to strengthen GPT's resistance to DRA attacks. Additionally, the URL-sharing feature in most GPT-4 jailbreak dialogues (Web version) has been disabled. You can get these examples by emailing us.
 
 ## Ethics
 
