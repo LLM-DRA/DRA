@@ -57,9 +57,6 @@ To run the code in this repository, follow these steps:
        "llama2-13b": {
            "model_path": "/models/llama2/llama-2-13b-chat-hf"
            },
-       "llama2-7b": {
-           "model_path": "/models/llama2/llama-2-7b-chat-hf"
-           },
        "llama2-70b": {
            "model_path": "/models/Llama-2-70b-chat-hf"
            },
@@ -77,15 +74,6 @@ To run the code in this repository, follow these steps:
            },
        "mistral": {
            "model_path": "/models/Mistral-7B-Instruct-v0.2"
-           },
-       "chatglm3": {
-           "model_path": "/models/chatglm"
-           },
-       "baichuan2-7b": {
-           "model_path": "/models/Baichuan2-7B-Chat"
-           },
-       "baichuan2-13b": {
-           "model_path": "/models/Baichuan2-13B-Chat"
            },
        "vicuna": {
            "model_path": "/models/vicuna/Xorbits/vicuna-13b-v1.5"
