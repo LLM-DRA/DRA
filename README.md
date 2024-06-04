@@ -19,8 +19,8 @@ To run the code in this repository, follow these steps:
 1. Clone this repository:
 
    ```sh
-   git clone xxxxx
-   cd xxxxx
+   git clone https://github.com/LLM-DRA/DRA.git
+   cd DRA
    ```
 
 2. Prepare the conda enviroment  (Python 3.9.18 is recommended):
@@ -38,9 +38,7 @@ To run the code in this repository, follow these steps:
 
 4. Install harmbench
 
-   ```sh
-   xxxxx
-   ```
+   Please refer to https://huggingface.co/cais/HarmBench-Llama-2-13b-cls
 
 ## Usage
 
