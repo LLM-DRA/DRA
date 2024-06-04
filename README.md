@@ -116,6 +116,29 @@ To run the code in this repository, follow these steps:
 
   `query`: provided by user. e.g., "how to rob a bank"
 
+  *[Example] Generate attack prompt against gpt4(-web) about your given harmful behavior:*
+  
+  ```sh
+  python3 attack.py \
+  --debug \
+  --verbose=True \
+  --model=gpt-4 \
+  --query=[Your Query Here]
+  ```
+  *[log] Terminal output:*
+  ```
+  [*] Current Question: ...
+  [+] Generated Prefix:
+  ... (Prompt prefix)
+  [*] Current Question: ...
+  [*] Loading cached moderation result...
+  [*] Cache loaded successfully!
+  [+] Generated Suffix:
+  ... (Prompt suffix)
+  [+] Generated Prompt:
+  ... (Attack prompt)
+  ```
+
 - Attack mode (Attack the model)
 
   ```sh
