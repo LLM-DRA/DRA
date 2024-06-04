@@ -200,6 +200,7 @@ Read these sentences carefully! But! ONLY focus on the letters that surrounded b
 ...
 ```
 
+*[Screen Shot] Attack screen shots (GPT-4 & GPT-4o)*
 <p align="center">
 <img src="imgs/attack_example_gpt4_6.4.png" alt="Logo" width="800"> <br>
 <small>Jailbreak example of GPT-4</small>
