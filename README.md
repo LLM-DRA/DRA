@@ -142,7 +142,7 @@ To run the code in this repository, follow these steps:
   --em_t=0.75 \
   --save=[SAVED_FILE, xx.json]
   ```
-  `model`: the target model name, choose from {llama, vicuna, gpt-3.5, gpt-4}
+  `model`: the target model name, choose from {llama, vicuna}. Note that GPT is not supported in batch mode.
 
   `start`: the start index of the dataset, from 0 to 120
 
