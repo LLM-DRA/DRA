@@ -50,7 +50,7 @@ To run the code in this repository, follow these steps:
    cd src/attack
    ```
 
-2. Modify the local model path in `attack_config.json`.
+2. Modify the local model path in `attack_config.json` based on your own requirements.
 
    ```json
    {
