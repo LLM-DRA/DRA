@@ -1,0 +1,44 @@
+{
+    "llama2-13b": {
+        "model_path": "/data1/zhe.zhao/models/llama2/llama-2-13b-chat-hf"
+        },
+    "llama2-7b": {
+        "model_path": "/data1/zhe.zhao/models/llama2/llama-2-7b-chat-hf"
+        },
+    "llama2-70b": {
+        "model_path": "/data2/zhe.zhao/models/Llama-2-70b-chat-hf"
+        },
+    "llama3-8b": {
+        "model_path": "/nfs2/models/Meta-Llama-3-8B-Instruct"
+        },
+    "zephyr": {
+        "model_path": "/data1/zhe.zhao/models/zephyr-7b-beta"
+        },
+    "mixtral": {
+        "model_path": "/data1/zhe.zhao/models/Mixtral-8x7B-Instruct-v0.1"
+        },
+    "nh2sft": {
+        "model_path": "/data2/zhe.zhao/models/Nous-Hermes-2-Mixtral-8x7B-SFT"
+        },
+    "nh2dpo": {
+        "model_path": "/data2/zhe.zhao/models/Nous-Hermes-2-Mixtral-8x7B-DPO"
+        },
+    "mistral": {
+        "model_path": "/data1/zhe.zhao/models/Mistral-7B-Instruct-v0.2"
+        },
+    "chatglm3": {
+        "model_path": "/data1/zhe.zhao/models/chatglm"
+        },
+    "baichuan2-7b": {
+        "model_path": "/data2/zhe.zhao/models/Baichuan2-7B-Chat"
+        },
+    "baichuan2-13b": {
+        "model_path": "/data2/zhe.zhao/models/Baichuan2-13B-Chat"
+        },
+    "vicuna": {
+        "model_path": "/nfs2/models/vicuna/Xorbits/vicuna-13b-v1___5"
+        },
+    "harmbench": {
+        "model_path": "/data1/zhe.zhao/models/HarmBench-Llama-2-13b-cls"
+    }
+}
