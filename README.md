@@ -49,7 +49,7 @@ To run the code in this repository, follow these steps:
    pip install transformers==4.34.1
    ```
 
-Note that detoxify 0.5.1 originally requires transformers 4.22.1, but the transformers version is 4.34.1 in the environment of our experiments. To ensure reprocucibility, please install transformers==4.34.1 AFTER you have installed other python packages.
+Note that detoxify 0.5.1 originally requires transformers 4.22.1, but the transformers version is 4.34.1 in the environment of our experiments. To ensure reprocucibility, please install transformers==4.34.1 AFTER you have installed other python packages. The warning of pip's dependency resolver doesn't matter.
 
 4. Install harmbench
 
