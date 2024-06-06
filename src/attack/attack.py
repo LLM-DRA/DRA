@@ -195,9 +195,9 @@ def suffix_gen(question, model="gpt4", verbose=False, **kwargs):
     # [3] fill it
     if "gpt4" in model:
         if random.randint(0, 1):
-            suffix = GPT_SUFFIX_TOOL.format(word_guide, tools)
+            suffix = LLAMA_SUFFIX_TOOL_DEV.format(word_guide, tools)
         else:
-            suffix = GPT_SUFFIX.format(word_guide)
+            suffix = LLAMA_SUFFIX_DEV.format(word_guide)
     if "llama" in model:
         # randomly use tools.
         if 'lyrics of' not in question and 'long passage' not in question:
