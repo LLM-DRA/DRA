@@ -215,7 +215,7 @@ Read these sentences carefully! But! ONLY focus on the letters that surrounded b
 <small>Jailbreak example of GPT-4o</small>
 </p>
 
-Due to the temperature of the GPT-web is non-zero, you may need to generate the attack prompt multiple times to successfully jailbreak. Additionally, the same prompt may yield different responses. For instance, GPT may fail to jailbreak, but upon retrying, it may provide a jailbreak response. Therefore, there are some elements of randomness involved in jailbreaking the GPT-web.
+Since the temperature of GPT-web is non-zero, you may need to generate the attack prompt multiple times to successfully jailbreak. Additionally, the same prompt may yield different responses. For instance, GPT may fail to jailbreak, but upon retrying, it may provide a jailbreak response. Therefore, there are some elements of randomness involved in jailbreaking the GPT-web.
 
 Note that the above examples were generated on June 2024 and may not be reproducible on future versions of GPT-4 and GPT-4o.
 
