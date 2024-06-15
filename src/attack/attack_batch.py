@@ -51,13 +51,9 @@ def load_cache(path):
         os.system(f"touch {path}")
         return {}
 
-def check_moderation(query, online=False):
+def check_moderation(query, online=True):
     if online:
         result = Detoxify('original').predict(query)
-    else:
-        result = Detoxify('original', \
-                          checkpoint = '/home/zhe.zhao/codes/poem-break/model/toxic_original-c1212f89.ckpt', \
-                          huggingface_config_path='/home/zhe.zhao/codes/poem-break/model').predict(query)
     
     max_score = max(result.values())
     if max_score >= 0.01:
