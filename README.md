@@ -55,10 +55,6 @@ Note that detoxify 0.5.1 originally requires transformers 4.22.1, but the transf
 
    Please refer to https://huggingface.co/cais/HarmBench-Llama-2-13b-cls
 
-5. Download detoxify checkpoint (optional)
-
-   By default, the scripts use the online mode of detoxify model (check_moderation(online=True)) which do not require local checkpoint of detoxify model. But you can download the model and infer detoxify in offline mode by setting the path of the local detoxify checkpoint and its config directory.
-
 ## Usage
 
 ### Attack
