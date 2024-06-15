@@ -57,16 +57,7 @@ def check_moderation(query, online=True):
     # infer detoxify online by default
     if online:
         result = Detoxify('original').predict(query)
-    else:
-        checkpoint = 'path/to/your/toxic_original-c1212f89.ckpt'
-        if not os.path.exists(checkpoint):
-            raise ValueError('Make sure you have downloaded detoxify checkpoint (toxic_original-c1212f89.ckpt) before infering detoxify in offline mode!\n'
-                            #  'You can download the checkpoint from:\nhttps://github.com/unitaryai/detoxify/releases/download/v0.1-alpha/toxic_original-c1212f89.ckpt\n'
-                             )
-        result = Detoxify('original', \
-                          checkpoint = checkpoint, \
-                          huggingface_config_path='path/to/the/directory/containing/config.py/of/detoxify/model').predict(query)
-    
+        
     max_score = max(result.values())
     if max_score >= 0.01:
         return True
