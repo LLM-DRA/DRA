@@ -443,7 +443,7 @@ if __name__ == "__main__":
                     print('*' * 20)
 
                 elif args.model == 'gpt-3.5':
-                    prompt = llama_gen(behavior, verbose=args.verbose **attack_kwargs)
+                    prompt = llama_gen(behavior, verbose=args.verbose, **attack_kwargs)
                     print('*' * 20)
                     response = chat_with_gpt(prompt, args.model)
                     print(response)
