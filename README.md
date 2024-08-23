@@ -240,11 +240,17 @@ DRA has been responsibly disclosed to LLM providers via emails, Github issuses, 
 ## Cite
 
 ```
-@article{liu2024making,
-  title={Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction},
-  author={Liu, Tong and Zhang, Yingjie and Zhao, Zhe and Dong, Yinpeng and Meng, Guozhu and Chen, Kai},
-  journal={arXiv preprint arXiv:2402.18104},
-  year={2024}
+@inproceedings {299784,
+author = {Tong Liu and Zhe Zhao and Yinpeng Dong and Guozhu Meng and Kai Chen},
+title = {Making Them Ask and Answer: Jailbreaking Large Language Models in Few Queries via Disguise and Reconstruction},
+booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
+year = {2024},
+isbn = {978-1-939133-44-1},
+address = {Philadelphia, PA},
+pages = {4711--4728},
+url = {https://www.usenix.org/conference/usenixsecurity24/presentation/liu-tong},
+publisher = {USENIX Association},
+month = aug
 }
 ```
 
